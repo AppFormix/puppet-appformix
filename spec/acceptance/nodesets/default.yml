@@ -1,0 +1,9 @@
+HOSTS:
+  'debian-7-x64_64':
+    roles:
+      - default
+    platform: debian-7-amd64
+    hypervisor : vagrant
+    box : puppetlabs/debian-7.8-32-nocm
+CONFIG:
+  type: foss
